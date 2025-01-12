@@ -1,14 +1,6 @@
 # Book Inventory API
 
-This is a simple Book Inventory application built with **Node.js**, **Express**, and **Vanilla JavaScript**. The app allows users to manage a collection of books, where they can add, view, and manage books.
-
-The backend is built using **Express** and **TypeScript**, while the frontend is a basic **Vanilla JavaScript** app that interacts with the backend API.
-
-## Features
-
-- **Backend**: Express API to manage books (Add and View books).
-- **Frontend**: Simple HTML form to add books and a list to display them.
-- **Database**: Currently, the data is stored in-memory (no database integration yet).
+This is a simple Book Inventory API built with **Node.js** and **Express**. The API allows users to manage a collection of books, where they can add, view, and manage books.
 
 ## Tech Stack
 
@@ -17,9 +9,6 @@ The backend is built using **Express** and **TypeScript**, while the frontend is
   - Express
   - TypeScript
   - In-memory data storage (for now)
-- **Frontend**:
-  - Vanilla JavaScript
-  - HTML & CSS (for the basic UI)
 
 ## Setup and Installation
 
