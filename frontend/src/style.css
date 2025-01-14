@@ -30,3 +30,8 @@ header {
 .user-box {
   margin-top: 1rem;
 }
+
+#bookList {
+  margin-top: 10px;
+  color: white;
+}
