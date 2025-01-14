@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Book Inventory App</title>
+</head>
+
+<body>
+  <header>
+    <h1>Book Inventory App</h1>
+    <h3>Here is a beta version of my personal book inventory !!!</h3>
+  </header>
+  <div class="container">
+    <div class="note-box">
+      <p>NOTE !!!</p>
+      <p>For now this app is only serving for me. So you can only call my registered books.</p>
+      <p>Soon I'm planning to provide this for you too with many features as you can have your own account where you can
+        build up your own virtual library.</p>
+    </div>
+    <div class="user-box">
+      <input type="text" id="bookTitle" placeholder="Book Title">
+      <input type="text" id="author" placeholder="Author">
+      <button id="addBookBtn">Add Book</button>
+      <button id="checkBooksBtn">Check My Library</button>
+    </div>
+    <div id="bookList"></div>
+  </div>
+  <script src="/frontend/dist/script.js"></script>
+</body>
+
+</html>

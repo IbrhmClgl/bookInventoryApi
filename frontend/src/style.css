@@ -1,0 +1,32 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000020;
+  color: green;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+  font-size: 1.5rem;
+}
+
+.container {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.note-box {
+  padding: 0.6rem;
+  border: 2px solid red;
+  max-width: 20rem;
+}
+
+.user-box {
+  margin-top: 1rem;
+}
