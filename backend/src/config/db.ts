@@ -1,16 +1,3 @@
-// import { Sequelize } from 'sequelize';
-
-// const sequelize = new Sequelize('bookstore', 'root', '', {
-//   host: 'localhost',
-//   dialect: 'mysql',
-//   define: {
-//     timestamps: false,
-//   },
-// });
-
-// export default sequelize;
-
-// db.ts
 import mysql2 from 'mysql2/promise';
 import dotenv from 'dotenv';
 
