@@ -11,7 +11,7 @@ const addBook = async () => {
   const author = inputAuthor.value.trim();
 
   if (!title || !author) {
-    alert('Bitte Buchdetails eingeben!');
+    alert('Please enter book details!');
     return;
   }
 
@@ -33,11 +33,11 @@ const addBook = async () => {
       inputTitle.value = '';
       inputAuthor.value = '';
     } else {
-      alert('Fehler beim Hinzufügen des Buchs');
+      alert('Error adding the book.');
     }
   } catch (error) {
     console.error('Error:', error);
-    alert('Netzwerkfehler beim Hinzufügen des Buchs');
+    alert('Network error while adding the book.');
   }
 };
 
@@ -48,11 +48,11 @@ const getBooks = async () => {
       const books = await response.json();
       displayBooks(books);
     } else {
-      alert('Fehler beim Abrufen der Bücher');
+      alert('Error fetching the books.');
     }
   } catch (error) {
     console.error('Error:', error);
-    alert('Netzwerkfehler beim Abrufen der Bücher');
+    alert('Network error while fetching the books.');
   }
 };
 
